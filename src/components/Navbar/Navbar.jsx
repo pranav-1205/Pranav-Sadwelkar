@@ -74,7 +74,7 @@ const Navbar = () => {
           Pranav
         </NavLink>
 
-        <div className="nav-menu center" id="nav-menu">
+        <div className={`nav-menu center ${isMenuOpen ? 'show-menu' : ''}`} id="nav-menu">
           <button className="nav-close" id="nav-close" onClick={closeMenu} aria-label="Close menu">
             <i className="fa-solid fa-xmark" />
           </button>

@@ -558,7 +558,7 @@ svg {
 .home-img {
     width: 100%;
     height: min(100vh, 800px);
-    object-fit: cover;
+    object-fit: contain;
 
 }
 
